@@ -50,7 +50,7 @@ http {
         location = /50x.html {
             root   html;
         }
-
+}
 
 
 }
