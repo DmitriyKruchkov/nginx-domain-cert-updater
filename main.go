@@ -15,7 +15,7 @@ func main() {
 	email, exists := os.LookupEnv(env_name)
 
 	if !exists {
-		fmt.Printf("Назначь переменную среды %s", env_name)
+		fmt.Printf("Назначь переменную среды %s \n", env_name)
 		os.Exit(0)
 	}
 	// Путь к файлу
