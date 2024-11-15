@@ -16,6 +16,7 @@ func main() {
 
 	if !exists {
 		fmt.Printf("Назначь переменную среды %s", env_name)
+		os.Exit(0)
 	}
 	// Путь к файлу
 	filePath := "/etc/nginx/nginx.conf"
